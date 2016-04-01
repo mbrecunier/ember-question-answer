@@ -1,0 +1,15 @@
+<h4>Answer this question</h4>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="author">Name:</label>
+      {{input value=author id="author"}}
+    </div>
+
+    <div class="form-group">
+      <label for="content">Answer:</label>
+      {{textarea value=content id="content"}}
+    </div>
+    <button {{action 'saveAnswer'}}>Submit</button>
+  </form>
+</div>
