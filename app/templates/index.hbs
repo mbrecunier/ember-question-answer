@@ -1,3 +1,7 @@
+<div class="explanation">
+  <h5>Got a question? Just {{#link-to 'new-question'}}ask{{/link-to}}! Got an answer? Click on a question below!</h5>
+</div>
+
 {{#each model as |question|}}
   <h3>{{#link-to 'question' question.id}}{{question.ask}} - {{question.author}}{{/link-to}}</h3>
 {{/each}}
