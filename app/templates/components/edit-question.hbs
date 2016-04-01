@@ -1,0 +1,22 @@
+{{#if editMode}}
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="ask">Question:</label>
+        {{input value=ask id="ask" placeholder=question.ask}}
+      </div>
+      <div class="form-group">
+        <label for="author">Name:</label>
+        {{input value=author id="author" placeholder=question.author}}
+      </div>
+      <div class="form-group">
+        <label for="notes">Notes:</label>
+        {{textarea value=notes id="notes" placeholder=question.notes}}
+      </div>
+
+      <button {{action 'edit' question}}>Submit</button>
+    </form>
+  </div>
+{{else}}
+  <button {{action 'editQuestionForm'}}>Edit Question</button>
+{{/if}}
