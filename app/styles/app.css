@@ -1,7 +1,12 @@
 body {
   background-color: #80AEC1;
-  font-family: 'Work sans', sans-serif;
+  font-family: 'Hind Siliguri', sans-serif;
 }
+
+p {
+  font-size: 1.1em;
+}
+
 .new-answer, .question-detail, .new-question {
   display: flex;
   flex-direction: column;
