@@ -1,5 +1,5 @@
 body {
-  background-color: #80AEC1;
+  background-color: lighten(#80AEC1, 5%);
   font-family: 'Hind Siliguri', sans-serif;
 }
 
@@ -70,7 +70,7 @@ header {
 }
 
 a {
-  color: #FFFCFC;
+  color: white;
 }
 
 .explanation {

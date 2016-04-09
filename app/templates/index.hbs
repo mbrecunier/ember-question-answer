@@ -3,5 +3,5 @@
 </div>
 
 {{#each model as |question|}}
-  <h3>{{#link-to 'question' question.id}}{{question.ask}} - {{question.author}}{{/link-to}}</h3>
+  {{question-preview question=question}}
 {{/each}}
