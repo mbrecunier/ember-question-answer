@@ -3,7 +3,7 @@
   <h4>From: {{question.author}}</h4>
   <p>{{question.notes}}</p>
   {{#if question.favorited}}
-    <p>You Favorited This Question :)</p>
+    <span class="favorited"><p>You Favorited This Question :)</p></span>
   {{else}}
     <button {{action 'favorite' question}}>Favorite This Question</button>
   {{/if}}
