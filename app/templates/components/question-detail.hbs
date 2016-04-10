@@ -2,4 +2,9 @@
   <h3>Q: {{question.ask}}</h3>
   <h4>From: {{question.author}}</h4>
   <p>{{question.notes}}</p>
+  {{#if question.favorited}}
+    <p>You Favorited This Question :)</p>
+  {{else}}
+    <button {{action 'favorite' question}}>Favorite This Question</button>
+  {{/if}}
 </div>

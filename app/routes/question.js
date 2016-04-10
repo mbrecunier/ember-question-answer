@@ -20,6 +20,6 @@ export default Ember.Route.extend({
         }
       });
       question.save();
-    }
+    },
   }
 });
