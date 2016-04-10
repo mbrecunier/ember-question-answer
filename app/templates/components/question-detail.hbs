@@ -1,5 +1,5 @@
 <div>
-  <h3>Q: {{question.ask}}</h3>
+  <h3>Q: {{question.ask}}{{#if question.favorited}}<span class="glyphicon glyphicon-heart"></span>{{/if}}</h3>
   <h4>From: {{question.author}}</h4>
   <p>{{question.notes}}</p>
   {{#if question.favorited}}
