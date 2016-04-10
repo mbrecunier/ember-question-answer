@@ -1,2 +1,2 @@
 <h3>{{#if question.favorited}}<span class="glyphicon glyphicon-heart"></span>{{/if}}{{#link-to 'question' question.id}}{{question.ask}}{{/link-to}} - by {{question.author}}</h3>
-<sup><h5>Answers: <span class="answer-popularity">{{answerPopularity}}</span> | {{question-popularity question}} | {{#if question.favorited}}<span>Favorited</span>{{/if}}</h5></sup>
+<sup><h5>Answers: <span class="answer-popularity">{{answerPopularity}}</span> | {{question-popularity question}} {{#if question.favorited}}| <span>Favorited</span>{{/if}}</h5></sup>
