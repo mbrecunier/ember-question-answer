@@ -1,12 +1,12 @@
 # Question-Answer Board
 
-#### An Ember Question and Answer App, 4/1/2016
+#### An Ember Question and Answer App, 4/9/2016
 
 #### By Michelle Brecunier
 
 ## Description
 
-This is an Epicodus Code Review for the Javascript course. Users can submit a question and other users can respond to the question with answers.
+This is an Epicodus Code Review for the Javascript course. Users can submit a question and other users can respond to the question with answers. This app employs computed properties to determine question popularity and if a user likes it, a helper to display popularity icons, and a service to keep track of a current user's favorite questions.
 
 ## Prerequisites/Technologies Used
 
