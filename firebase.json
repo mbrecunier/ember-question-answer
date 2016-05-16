@@ -1,0 +1,9 @@
+{
+  "firebase": "review-question-answer",
+  "public": "dist",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
